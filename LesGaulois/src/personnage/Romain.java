@@ -21,7 +21,7 @@ public class Romain {
 	}
 
 	public void parler(String texte) {
-		System.out.println(prendreParole() + texte);
+		System.out.println(prendreParole() + "\"" + texte + "\"");
 		// syso + ctrl_espace
 	}
 

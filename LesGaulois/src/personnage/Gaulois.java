@@ -1,6 +1,8 @@
+// IL FAUT UNE SOLUTION POUR EVITER CTRL-C/V
 package personnage;
 
-// IL FAUT UNE SOLUTION POUR EVITER CTRL-C/V
+
+
 public class Gaulois {
 	// attributs
 	private String nom;
@@ -23,7 +25,7 @@ public class Gaulois {
 	}
 
 	public void parler(String texte) {
-		System.out.println(prendreParole() + texte);
+		System.out.println(prendreParole() + "\"" + texte + "\"");
 		// syso + ctrl_espace
 	}
 
